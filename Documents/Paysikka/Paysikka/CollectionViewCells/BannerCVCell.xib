@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerImageViewCell" id="9dQ-Py-9Oq" customClass="BannerCVCell" customModule="Paysikka" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="uWI-1e-zQN">
+                <rect key="frame" x="0.0" y="0.0" width="368" height="126"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eNe-mW-akZ">
+                        <rect key="frame" x="0.0" y="0.0" width="368" height="126"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="eNe-mW-akZ" secondAttribute="bottom" id="91k-Tc-nQW"/>
+                    <constraint firstItem="eNe-mW-akZ" firstAttribute="leading" secondItem="uWI-1e-zQN" secondAttribute="leading" id="FWv-Cm-tAw"/>
+                    <constraint firstAttribute="trailing" secondItem="eNe-mW-akZ" secondAttribute="trailing" id="rgT-ep-eLz"/>
+                    <constraint firstItem="eNe-mW-akZ" firstAttribute="top" secondItem="uWI-1e-zQN" secondAttribute="top" id="vfl-X0-nXJ"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="368" height="126"/>
+            <connections>
+                <outlet property="bannerImage" destination="eNe-mW-akZ" id="gSv-2i-bRT"/>
+            </connections>
+            <point key="canvasLocation" x="-49.230769230769226" y="-16.350710900473931"/>
+        </collectionViewCell>
+    </objects>
+</document>

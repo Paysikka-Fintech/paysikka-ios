@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SectionsCollectionViewCell" customModule="Paysikka" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="135" height="105"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="135" height="105"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cuO-Hl-soC" customClass="SDAnimatedImageView">
+                        <rect key="frame" x="38" y="2" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="cuO-Hl-soC" secondAttribute="height" multiplier="1:1" id="nI7-nn-Fh2"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile Prepaid" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lg-N9-Qeb">
+                        <rect key="frame" x="8" y="68" width="121" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="cuO-Hl-soC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="CKB-Gg-jSa"/>
+                <constraint firstItem="1lg-N9-Qeb" firstAttribute="top" secondItem="cuO-Hl-soC" secondAttribute="bottom" constant="6" id="Qt0-5H-ROh"/>
+                <constraint firstItem="1lg-N9-Qeb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="SKa-34-1cY"/>
+                <constraint firstAttribute="bottom" secondItem="1lg-N9-Qeb" secondAttribute="bottom" constant="10" id="Vmr-gd-2rk"/>
+                <constraint firstAttribute="trailing" secondItem="1lg-N9-Qeb" secondAttribute="trailing" constant="6" id="lRJ-ii-8n0"/>
+                <constraint firstItem="cuO-Hl-soC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="38" id="tzQ-sr-I9f"/>
+                <constraint firstAttribute="trailing" secondItem="cuO-Hl-soC" secondAttribute="trailing" constant="37" id="zIb-Ri-FZ7"/>
+            </constraints>
+            <size key="customSize" width="135" height="105"/>
+            <connections>
+                <outlet property="providerName" destination="1lg-N9-Qeb" id="Koq-Fi-89g"/>
+                <outlet property="providerimg" destination="cuO-Hl-soC" id="AvL-gk-i6t"/>
+            </connections>
+            <point key="canvasLocation" x="-20" y="45.42728635682159"/>
+        </collectionViewCell>
+    </objects>
+</document>

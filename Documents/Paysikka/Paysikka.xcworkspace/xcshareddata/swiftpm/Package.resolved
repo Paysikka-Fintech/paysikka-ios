@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "8dd85aee02e39dd280c75eef88ffdb86eed4b07b",
+          "version": "5.6.2"
+        }
+      },
+      {
+        "package": "BLTNBoard",
+        "repositoryURL": "https://github.com/alexaubry/BulletinBoard.git",
+        "state": {
+          "branch": null,
+          "revision": "e8ba81d25e41e5d24d6a4f404ed28443d728723b",
+          "version": "5.0.0"
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-ios",
+        "state": {
+          "branch": null,
+          "revision": "314537ec697719fa33a9d48210f4d06a463286d3",
+          "version": "3.4.3"
+        }
+      },
+      {
+        "package": "NVActivityIndicatorView",
+        "repositoryURL": "https://github.com/ninjaprox/NVActivityIndicatorView.git",
+        "state": {
+          "branch": "master",
+          "revision": "bcb52371f2259254bac6690f92bb474a61768c47",
+          "version": null
+        }
+      },
+      {
+        "package": "SDWebImage",
+        "repositoryURL": "https://github.com/SDWebImage/SDWebImage.git",
+        "state": {
+          "branch": null,
+          "revision": "9248fe561a2a153916fb9597e3af4434784c6d32",
+          "version": "5.13.4"
+        }
+      },
+      {
+        "package": "UIViewCanvas",
+        "repositoryURL": "https://github.com/outrowender/UIViewCanvas",
+        "state": {
+          "branch": "main",
+          "revision": "212e9fceb25aa6ee07872462968022180db95cce",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,42 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.9)
+  - Pageboy (3.7.0)
+  - Parchment (3.2.0)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - Tabman (2.13.0):
+    - Pageboy (~> 3.7.0)
+  - VegaScrollFlowLayout (1.1)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - Parchment (~> 3.2)
+  - SwiftMessages
+  - Tabman (~> 2.13)
+  - VegaScrollFlowLayout
+  - XLPagerTabStrip (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - Pageboy
+    - Parchment
+    - SwiftMessages
+    - Tabman
+    - VegaScrollFlowLayout
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  Pageboy: fe646118f7168960058bea7a96038386aa7c0da8
+  Parchment: a43c440b22c8a60f7e0196b74339446d4d1d18ea
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  Tabman: 66ea44c44488327ec20f3c8dc5554a5d22f5908c
+  VegaScrollFlowLayout: 9158061f29179147755f937c2b21693fc5dbbac3
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: bcf0ad6af0f32ae6ac3bcc087bb1ec005590d17c
+
+COCOAPODS: 1.11.3
